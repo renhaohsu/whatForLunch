@@ -1,0 +1,40 @@
+body {
+  background: lightblue;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 45%;
+  height: 65vh;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.food {
+  width: 100%;
+  min-width: 300px;
+  max-width: 500px;
+  height: 100%;
+  background-image: url(../images/1.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+}
+
+.buttons {
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  text-align: center;
+}
